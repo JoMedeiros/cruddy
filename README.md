@@ -14,3 +14,8 @@ Fazer build:
 ```bash
 npm run build
 ```
+Executar testes:
+
+```bash
+npm test
+```
