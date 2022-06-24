@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cruddy/static/css/main.1ed0fbc6.css",
+    "main.js": "/cruddy/static/js/main.a7a3272e.js",
+    "index.html": "/cruddy/index.html",
+    "main.1ed0fbc6.css.map": "/cruddy/static/css/main.1ed0fbc6.css.map",
+    "main.a7a3272e.js.map": "/cruddy/static/js/main.a7a3272e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ed0fbc6.css",
+    "static/js/main.a7a3272e.js"
+  ]
+}
