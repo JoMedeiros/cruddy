@@ -1,5 +1,4 @@
 import React, {Component } from "react";
-import './Main.css';
 import Form from './Form';
 import List from './List';
 
@@ -72,8 +71,9 @@ class Main extends Component {
     render() {
         const { novaCoisa, coisas, index } = this.state;
         return (
-            <main>
-                <h1>Lista de Coisas</h1>
+            <main className="bg-stone-900 rounded-lg shadow-md shadow-stone-900/80 text-white
+            lg:w-6/12 md:mx-auto md:w-9/12  my-10 p-8  mx-4">
+                <h1 className="text-3xl text-center">Lista de Coisas</h1>
                 
                 <Form 
                     handleAdd={this.handleAdd}
