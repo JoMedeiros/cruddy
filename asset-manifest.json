@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cruddy/static/css/main.1ed0fbc6.css",
-    "main.js": "/cruddy/static/js/main.c1ab762c.js",
+    "main.css": "/cruddy/static/css/main.895c9009.css",
+    "main.js": "/cruddy/static/js/main.bac7b56e.js",
     "index.html": "/cruddy/index.html",
-    "main.1ed0fbc6.css.map": "/cruddy/static/css/main.1ed0fbc6.css.map",
-    "main.c1ab762c.js.map": "/cruddy/static/js/main.c1ab762c.js.map"
+    "main.895c9009.css.map": "/cruddy/static/css/main.895c9009.css.map",
+    "main.bac7b56e.js.map": "/cruddy/static/js/main.bac7b56e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ed0fbc6.css",
-    "static/js/main.c1ab762c.js"
+    "static/css/main.895c9009.css",
+    "static/js/main.bac7b56e.js"
   ]
 }
