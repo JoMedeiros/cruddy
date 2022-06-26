@@ -71,8 +71,7 @@ class Main extends Component {
     render() {
         const { novaCoisa, coisas, index } = this.state;
         return (
-            <main className="bg-stone-900 rounded-lg shadow-md shadow-stone-900/80 text-white
-            lg:w-6/12 md:mx-auto md:w-9/12  my-10 p-8  mx-4">
+            <main className="bg-stone-200 rounded-lg shadow shadow-stone-900/50 lg:w-6/12 md:mx-auto md:w-9/12  my-10 p-8  mx-4 dark:bg-stone-800 dark:text-white">
                 <h1 className="text-3xl text-center">Lista de Coisas</h1>
                 
                 <Form 

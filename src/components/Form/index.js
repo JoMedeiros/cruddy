@@ -6,13 +6,10 @@ function Form({ handleAdd, handleMudanca, novaCoisa, index }) {
     return (
         <form action="#" onSubmit={handleAdd} className="mt-4 flex items-center justify-center">
             <input onChange={handleMudanca} 
-                    type="text"
-                    value={novaCoisa}
-                    className="h-10 px-5 text-lg border-4 border-stone-400 
-                    rounded-lg bg-stone-700 m-2"></input>
+                    type="text" value={novaCoisa}
+                    className="h-10 px-5 text-lg border-4 border-stone-400 rounded-lg bg-stone-100 m-2 shrink min-w-none w-5/6 sm:w-auto dark:bg-stone-700"></input>
             <button type="submit"
-                className="rounded-xl h-10 w-10 bg-emerald-500 shadow shadow-emerald-500/80 
-                text-black flex justify-center items-center">
+                className="rounded-xl h-10 w-10 bg-emerald-500 shadow shadow-emerald-500/80 text-black flex justify-center items-center shrink-0">
                 {index === -1 ? <FaPlus/> : <FaSave/>}
             </button>
         </form>
